@@ -1,42 +1,49 @@
-# OpenClaw Stock Financial Dashboard | 股票财报可视化仪表盘
+# OpenClaw 股票财报可视化仪表盘
 
-Turn financial statements into a product-grade dashboard: charts, metrics, investor signals, and a clean React/Vite interface that is easy to study, remix, and deploy.
+一个面向投研、财务分析和公司研究场景的 React/Vite 财报看板，把利润表、现金流、资产负债、关键指标和投资叙事组织成可读的产品界面。
 
-把财报数据变成真正能看的产品界面：收入、利润、现金流、资产负债、股东回报、市场共识与关键指标集中在一个可复用的 React/Vite 仪表盘里。
+**English introduction:** [README_EN.md](README_EN.md)
 
-![Stock financial dashboard preview](docs/screenshot.png)
-
+![项目预览](docs/screenshot.png)
 
 ## 页面截图
 
-下面两张图都是从本仓库真实页面生成的中文截图，方便快速判断项目实际效果。
+下面两张图都来自本仓库真实页面渲染：第一张展示首屏效果，第二张展示继续滚动后的功能内容。
 
-| 页面截图 1 | 页面截图 2 |
+| 首屏截图 | 第二屏截图 |
 |---|---|
-| ![真实中文网页截图 1](docs/screenshot-2.png) | ![真实中文网页截图 2](docs/screenshot-3.png) |
+| ![真实中文网页首屏](docs/screenshot-2.png) | ![真实中文网页第二屏](docs/screenshot-3.png) |
 
-## Why Star This | 为什么值得 Star
+## 系统功能总览
 
-- Built for people who want to learn how financial data becomes readable UI, not just another chart demo.
-- Includes reusable chart components, metric constants, validation scripts, and two cleaned dashboard baselines.
-- Works as a starter for company research pages, investor memo tools, industry comparison views, and internal finance cockpits.
-- 已清理真实部署信息和敏感凭证，适合公开学习、下载、二次开发。
+这个系统不是单纯画几张图，而是一套“上市公司财报 -> 投研阅读界面”的前端产品模板。它把高密度财务数据拆成多个可阅读模块，让用户可以从经营质量、盈利能力、现金流、资产负债、股东回报和市场观察几个角度快速理解一家公司。
 
-## What Is Inside | 项目内容
+## 核心功能
 
-- `apps/financial-report-visualizer`: React/Vite financial statement dashboard with chart components and validation scripts.
-- `apps/investor-dashboard-template`: investor-facing finance dashboard baseline for company analysis pages.
-- `docs/screenshot.png`: repository preview image for GitHub and social sharing.
+- **财报摘要首屏**：用公司名称、股票代码、核心标签、收入规模、毛利率、现金流等关键指标建立第一判断。
+- **利润表可视化**：展示收入、毛利、费用、利润等数据变化，帮助判断增长质量和盈利结构。
+- **现金流分析**：对经营现金流、投资现金流、筹资现金流和自由现金流做图表化展示。
+- **资产负债结构**：用可视化模块观察资产、负债、现金、存货、应收账款等结构变化。
+- **关键指标解释**：在图表旁提供“小白解读/分析观点”，让数据不只是数字，而能转成判断。
+- **股东与市场视角**：保留投资者看板结构，可扩展为股东回报、估值指标、市场共识、公司研究页。
+- **双项目结构**：包含财报图表应用和投资看板模板，适合分别学习组件化图表和产品化页面组织。
+- **数据校验脚本**：包含用于检查财务数据一致性的脚本入口，方便继续扩展真实数据流程。
 
-## Best Use Cases | 适合做什么
+## 适合改造成什么
 
-- Listed-company financial statement visualization
-- Investor research dashboards
-- Business analysis templates
-- Finance UI component study
-- 财报可视化、投研页面、经营分析看板、财经产品原型
+- 上市公司财报可视化页面
+- 行业公司对比看板
+- 投资研究 Memo 工具
+- 经营分析或 CFO 内部看板
+- 财经内容网站的单公司详情页
 
-## Quick Start | 快速开始
+## 目录说明
+
+- `apps/financial-report-visualizer`：React/Vite 财报图表应用，包含图表组件、指标常量和校验脚本。
+- `apps/investor-dashboard-template`：投资者视角公司分析模板，适合改造成投研页面。
+- `docs/`：项目截图和 README 展示图片。
+
+## 快速开始
 
 ```bash
 cd apps/financial-report-visualizer
@@ -44,6 +51,10 @@ npm install
 npm run dev
 ```
 
-## Public Safety | 公开安全说明
+## 公开安全说明
 
-Private deployment URLs, tokens, local state, and hosting identifiers were removed before publication.
+这个公开版本已经移除真实部署地址、生产密钥、Cloudflare token、本地环境文件、日志、`.wrangler`、`node_modules` 和任何不适合公开的私有信息。你可以放心把它当作学习、参考和二次开发的起点。
+
+## 推荐 Star 的理由
+
+如果你正在做类似产品，这个仓库不是只能看一眼的截图，而是能直接 Fork 的结构样板：页面、数据、组件、交互和说明文档都已经整理好，可以节省从 0 到 1 搭骨架的时间。
