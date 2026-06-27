@@ -7,11 +7,13 @@ Turn financial statements into a product-grade dashboard: charts, metrics, inves
 ![Stock financial dashboard preview](docs/screenshot.png)
 
 
-## Visual Tour | 图像导览
+## 页面截图
 
-| Product Highlights | Build / Remix Flow |
+下面两张图都是从本仓库真实页面生成的中文截图，方便快速判断项目实际效果。
+
+| 页面截图 1 | 页面截图 2 |
 |---|---|
-| ![Product highlights](docs/feature-map.png) | ![Build and remix flow](docs/workflow-map.png) |
+| ![真实中文网页截图 1](docs/screenshot-2.png) | ![真实中文网页截图 2](docs/screenshot-3.png) |
 
 ## Why Star This | 为什么值得 Star
 
