@@ -6,6 +6,13 @@ Turn financial statements into a product-grade dashboard: charts, metrics, inves
 
 ![Stock financial dashboard preview](docs/screenshot.png)
 
+
+## Visual Tour | 图像导览
+
+| Product Highlights | Build / Remix Flow |
+|---|---|
+| ![Product highlights](docs/feature-map.png) | ![Build and remix flow](docs/workflow-map.png) |
+
 ## Why Star This | 为什么值得 Star
 
 - Built for people who want to learn how financial data becomes readable UI, not just another chart demo.
