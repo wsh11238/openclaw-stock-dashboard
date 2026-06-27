@@ -8,11 +8,12 @@ A React/Vite financial statement dashboard for investment research, company anal
 
 ## Screenshots
 
-Both screenshots are captured from real rendered pages in this repository. The first one shows the opening screen, and the second one shows the scrolled product experience.
+The four screenshots below come from the actual rendered Chinese pages in this repository: the opening screen, the scrolled second screen, and two additional feature-focused views. They are real UI captures, not concept art or English placeholder mockups.
 
 | Opening Screen | Scrolled Screen |
 |---|---|
 | ![Opening screen](docs/screenshot-2.png) | ![Scrolled screen](docs/screenshot-3.png) |
+| ![Feature screenshot one](docs/screenshot-4.png) | ![Feature screenshot two](docs/screenshot-5.png) |
 
 ## What This System Does
 
