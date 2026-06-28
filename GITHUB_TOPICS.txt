@@ -1,1 +1,10 @@
-finance-dashboard,react,vite,financial-statements,investment-research,charts,cloudflare-pages
+react
+vite
+dashboard
+finance
+stock-analysis
+visualization
+financial-dashboard
+investment-research
+charts
+chinese

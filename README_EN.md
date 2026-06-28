@@ -4,7 +4,21 @@ A React/Vite financial statement dashboard for investment research, company anal
 
 **中文介绍:** [README.md](README.md)
 
-![Project preview](docs/screenshot.png)
+![Demo](docs/demo.gif)
+
+## At A Glance
+
+**Turn company financial statements into a forkable investment-research dashboard.**
+
+- Useful for company analysis pages, finance content, CFO dashboards, and research memos.
+- Income statement, cash flow, balance sheet, shareholder returns, and metric explanations are already structured as a product UI.
+- Replace the data and reuse the interface instead of rebuilding chart scaffolding from scratch.
+
+## Fork It In 30 Seconds
+
+Fork it, edit the financial data in `apps/financial-report-visualizer`, and ship your own company dashboard.
+
+> If this saves you from rebuilding the same product skeleton later, consider starring the repo.
 
 ## Screenshots
 

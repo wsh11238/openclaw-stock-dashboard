@@ -1,1 +1,1 @@
-股票财报可视化投研看板：利润表、现金流、资产负债、关键指标解读、股东/市场视角和 React/Vite 图表组件，适合改造成公司研究页、财务分析看板或财经产品原型。
+React/Vite financial statement dashboard for stock research, charts, metrics, and company analysis.
